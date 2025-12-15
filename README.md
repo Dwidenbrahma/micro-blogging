@@ -111,3 +111,38 @@ micro-blogging/
 │       └── main.tsx
 │
 └── README.md
+
+## ▶️ Getting Started
+
+Each service runs independently.
+
+###Clone the repository
+
+```bash
+git clone https://github.com/Dwidenbrahma/micro-blogging.git
+cd micro-blogging
+
+# 2️. Start Backend Services
+cd backend/services/auth-service
+npm install
+npm run dev
+
+cd ../users-service
+npm install
+npm run dev
+
+cd ../posts-service
+npm install
+npm run dev
+
+cd ../comments-service
+npm install
+npm run dev
+
+# 3. Start Frontend
+
+cd frontend
+npm install
+npm run dev
+
+
