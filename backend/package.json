@@ -1,0 +1,13 @@
+{
+  "name": "microblog-backend",
+  "private": true,
+  "scripts": {
+    "users": "npm run dev --prefix services/users-service",
+    "auth": "npm run dev --prefix services/auth-service",
+    "posts": "npm run dev --prefix services/posts-service",
+    "dev": "concurrently -k -n \"USERS,AUTH,POSTS\" -c \"blue,green,magenta\" \"npm run users\" \"npm run auth\" \"npm run posts\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
