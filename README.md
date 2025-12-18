@@ -145,4 +145,11 @@ cd frontend
 npm install
 npm run dev
 
+## 🚧 Currently Working On (18th Dec 2025)
+
+- 🤖 **AI Integration**: Adding AI-assisted post writing, summarization, and basic content moderation as a separate service.
+- 💬 **Comment Service**: Enhancing comment features with better attribution, optimized fetching, and support for threaded discussions.
+- ⚡ **Latency Optimization**: Reducing inter-service latency through query optimization, indexing, and planned Redis caching for high-traffic data.
+
+
 
