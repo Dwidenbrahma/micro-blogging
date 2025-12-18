@@ -143,7 +143,7 @@ npm run dev
 
 cd frontend
 npm install
-npm run dev
+npm run dev```
 
 ## 🚧 Currently Working On (18th Dec 2025)
 
